@@ -98,9 +98,9 @@ input[type="text"]{
        
         position: absolute;
         top: 10%;
-        right: 245px;
-        height: 200px;
-        width: 200px;
+        right: 332px;
+        height: 10px;
+        width: 10px;
         transform: translate(8%, 1%)
     }
     h2{
@@ -110,8 +110,31 @@ input[type="text"]{
         margin-top: 60px;
         border-bottom: 2px solid rgb(148, 145, 151);
         display: inline-block;
-        margin-left: 160px;
+        margin-left: 130px;
 
+    }
+    input[type="text"]{
+        width: 200px;
+        height: 90px;
+        text-align: right;
+        margin: 10px;
+        padding: 2px;
+        outline: none;
+        border: none;
+        font-size: 55px;
+        color: #1462e0;
+        transition: .5s;
+    }
+    input[type="Button"]{
+        width: 80px;
+        height: 60px;
+        color: #fff;
+        font-size: 25px;
+        border: none;
+        cursor: pointer;
+        transition: .2s;
+        background-color: rgb(43, 153, 61);
+        
     }
 }
 @media only screen and (min-width: 768px) {
